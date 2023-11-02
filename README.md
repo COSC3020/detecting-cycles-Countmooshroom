@@ -18,4 +18,4 @@ answer, including your reasoning, to this markdown file.
 
 ## Answer
 
-The worst case would be if it searched through a graph and found no cycles or a cycle at the very end.  Since it would search through every edge once, I believe the complexity would be $\Theta(|E|)$.
+The worst case would be if it searched through a graph and found no cycles or a cycle at the very end.  It would search through every edge once, and it would also search through every node, no matter how many edges were attached to it.  Therefore, I believe the complexity would be $\Theta(|E| + |V|)$.
